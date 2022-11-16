@@ -56,7 +56,24 @@
   
   PUT
   - http://localhost:5000/api/patients/1
+
+  {
+      "firstName": "Иванов",
+      "lastName": "Иван",
+      "middleName": "Иванович",
+      "address": "Улица Иванова",
+      "birthDate": "2000-01-01T00:00:00",
+      "gender": 1,
+      "siteId": 1
+  }
   - http://localhost:5000/api/doctors/1
+
+  {
+      "fio": "Лемешова А.Н.",
+      "cabinetId": 2,
+      "specializationId": 1,
+      "siteId": 0
+  }
  5. Удаление записи
 
   DELETE
