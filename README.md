@@ -52,6 +52,7 @@
       "specializationId": 1,
       "siteId": 1
   }
+  
  4. Редактирование записи
   
   PUT
@@ -74,6 +75,7 @@
       "specializationId": 1,
       "siteId": 0
   }
+  
  5. Удаление записи
 
   DELETE
